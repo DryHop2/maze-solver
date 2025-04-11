@@ -2,7 +2,7 @@ from tkinter import Tk, BOTH, Canvas
 from geometry import Line
 
 
-class Window():
+class Window:
     def __init__(self, width, height):
         self.root = Tk()
         self.root.title("Maze Solver")
